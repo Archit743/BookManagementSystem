@@ -1,0 +1,76 @@
+/* Home.css */
+
+/* Wrapper for buttons */
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  /* Button Styles */
+  .button-wrapper button {
+    background-color: #38bdf8;
+    color: white;
+    font-size: 1.125rem;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-wrapper button:hover {
+    background-color: #0ea5e9;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Books Card Layout */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .card {
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .card-footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+  }
+  
+  .card-footer a {
+    color: #0ea5e9;
+    text-decoration: none;
+  }
+  
+  .card-footer a:hover {
+    text-decoration: underline;
+  }
+  

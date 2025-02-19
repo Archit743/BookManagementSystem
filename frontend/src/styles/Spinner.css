@@ -1,0 +1,10 @@
+/* Spinner.css */
+.spinner {
+    width: 4rem; /* Tailwind w-16 equivalent */
+    height: 4rem; /* Tailwind h-16 equivalent */
+    margin: 2rem; /* Tailwind m-8 equivalent */
+    border-radius: 50%; /* Tailwind rounded-full equivalent */
+    background-color: #38bdf8; /* Tailwind bg-sky-600 equivalent */
+    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite; /* Tailwind animate-ping equivalent */
+  }
+  

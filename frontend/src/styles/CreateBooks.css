@@ -1,0 +1,57 @@
+/* CreateBook.css */
+
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 40px;
+  }
+  
+  .input-field {
+    margin-bottom: 20px;
+  }
+  
+  .input-field label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .input-field input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field input:focus {
+    border-color: #0ea5e9;
+  }
+  
+  button.save-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #0ea5e9;
+    color: white;
+    font-size: 1.125rem;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.save-btn:hover {
+    background-color: #0284c7;
+  }
+  
+  .spinner {
+    margin: 20px auto;
+  }
+  
